@@ -34,3 +34,6 @@ git branch -d branchname 删除本地的某个分支
 
 如何克隆一个项目到本地并修改
 https://blog.csdn.net/jasonLee_lijiaqi/article/details/80511723
+
+git clone --bare oldRepository 仅保留历史提交信息
+git push --mirror newRepositor 
